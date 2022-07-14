@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9341796A2876B2710013419B /* socialApp_PepulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341795A2876B26B0013419B /* socialApp_PepulApp.swift */; };
+		9341796B2876B2710013419B /* socialApp_PepulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341795A2876B26B0013419B /* socialApp_PepulApp.swift */; };
+		9341796C2876B2710013419B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341795B2876B26B0013419B /* ContentView.swift */; };
+		9341796D2876B2710013419B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341795B2876B26B0013419B /* ContentView.swift */; };
+		9341796E2876B2710013419B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9341795C2876B2710013419B /* Assets.xcassets */; };
+		9341796F2876B2710013419B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9341795C2876B2710013419B /* Assets.xcassets */; };
+		9341797F2876B3700013419B /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341797E2876B3700013419B /* StringConstants.swift */; };
+		934179812876B38C0013419B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934179802876B38C0013419B /* Extensions.swift */; };
+		934179832876B3A80013419B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934179822876B3A80013419B /* ModelData.swift */; };
+		934179852876B44A0013419B /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934179842876B44A0013419B /* UserDetails.swift */; };
+		934179872876B45F0013419B /* userdetails.json in Resources */ = {isa = PBXBuildFile; fileRef = 934179862876B45F0013419B /* userdetails.json */; };
+		9341798E2876B5D70013419B /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341798D2876B5D70013419B /* PostListView.swift */; };
+		934179922876B5F90013419B /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934179912876B5F90013419B /* PostView.swift */; };
+		934179942876B64B0013419B /* UserDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934179932876B64B0013419B /* UserDetailsViewModel.swift */; };
+		934179962876BC190013419B /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934179952876BC190013419B /* APIService.swift */; };
+		934179982876BF8E0013419B /* UserDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934179972876BF8E0013419B /* UserDetailsService.swift */; };
+		9341799A2876CE170013419B /* DeletePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934179992876CE170013419B /* DeletePost.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9341795A2876B26B0013419B /* socialApp_PepulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socialApp_PepulApp.swift; sourceTree = "<group>"; };
+		9341795B2876B26B0013419B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9341795C2876B2710013419B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		934179612876B2710013419B /* socialApp-Pepul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "socialApp-Pepul.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		934179672876B2710013419B /* socialApp-Pepul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "socialApp-Pepul.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		934179692876B2710013419B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9341797E2876B3700013419B /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		934179802876B38C0013419B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		934179822876B3A80013419B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		934179842876B44A0013419B /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		934179862876B45F0013419B /* userdetails.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = userdetails.json; sourceTree = "<group>"; };
+		9341798D2876B5D70013419B /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		934179912876B5F90013419B /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		934179932876B64B0013419B /* UserDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewModel.swift; sourceTree = "<group>"; };
+		934179952876BC190013419B /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		934179972876BF8E0013419B /* UserDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsService.swift; sourceTree = "<group>"; };
+		934179992876CE170013419B /* DeletePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePost.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9341795E2876B2710013419B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934179642876B2710013419B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		934179542876B26B0013419B = {
+			isa = PBXGroup;
+			children = (
+				934179592876B26B0013419B /* Shared */,
+				934179682876B2710013419B /* macOS */,
+				934179622876B2710013419B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		934179592876B26B0013419B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9341795A2876B26B0013419B /* socialApp_PepulApp.swift */,
+				934179782876B2960013419B /* Constants */,
+				9341797D2876B2E60013419B /* Helpers */,
+				9341798A2876B5260013419B /* ServiceManager */,
+				934179882876B4E20013419B /* Services */,
+				9341797A2876B2BA0013419B /* Model */,
+				934179792876B2A70013419B /* Views */,
+				9341797B2876B2CC0013419B /* ViewModel */,
+				9341797C2876B2D90013419B /* Resources */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		934179622876B2710013419B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934179612876B2710013419B /* socialApp-Pepul.app */,
+				934179672876B2710013419B /* socialApp-Pepul.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		934179682876B2710013419B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				934179692876B2710013419B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		934179782876B2960013419B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9341797E2876B3700013419B /* StringConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		934179792876B2A70013419B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9341795B2876B26B0013419B /* ContentView.swift */,
+				9341798C2876B5AA0013419B /* PostView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9341797A2876B2BA0013419B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				934179842876B44A0013419B /* UserDetails.swift */,
+				934179992876CE170013419B /* DeletePost.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9341797B2876B2CC0013419B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				934179932876B64B0013419B /* UserDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9341797C2876B2D90013419B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				934179862876B45F0013419B /* userdetails.json */,
+				9341795C2876B2710013419B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9341797D2876B2E60013419B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				934179802876B38C0013419B /* Extensions.swift */,
+				934179822876B3A80013419B /* ModelData.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		934179882876B4E20013419B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				934179972876BF8E0013419B /* UserDetailsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9341798A2876B5260013419B /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				934179952876BC190013419B /* APIService.swift */,
+			);
+			path = ServiceManager;
+			sourceTree = "<group>";
+		};
+		9341798C2876B5AA0013419B /* PostView */ = {
+			isa = PBXGroup;
+			children = (
+				9341798D2876B5D70013419B /* PostListView.swift */,
+				934179912876B5F90013419B /* PostView.swift */,
+			);
+			path = PostView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		934179602876B2710013419B /* socialApp-Pepul (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934179722876B2710013419B /* Build configuration list for PBXNativeTarget "socialApp-Pepul (iOS)" */;
+			buildPhases = (
+				9341795D2876B2710013419B /* Sources */,
+				9341795E2876B2710013419B /* Frameworks */,
+				9341795F2876B2710013419B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "socialApp-Pepul (iOS)";
+			productName = "socialApp-Pepul (iOS)";
+			productReference = 934179612876B2710013419B /* socialApp-Pepul.app */;
+			productType = "com.apple.product-type.application";
+		};
+		934179662876B2710013419B /* socialApp-Pepul (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934179752876B2710013419B /* Build configuration list for PBXNativeTarget "socialApp-Pepul (macOS)" */;
+			buildPhases = (
+				934179632876B2710013419B /* Sources */,
+				934179642876B2710013419B /* Frameworks */,
+				934179652876B2710013419B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "socialApp-Pepul (macOS)";
+			productName = "socialApp-Pepul (macOS)";
+			productReference = 934179672876B2710013419B /* socialApp-Pepul.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		934179552876B26B0013419B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					934179602876B2710013419B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					934179662876B2710013419B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 934179582876B26B0013419B /* Build configuration list for PBXProject "socialApp-Pepul" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 934179542876B26B0013419B;
+			productRefGroup = 934179622876B2710013419B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				934179602876B2710013419B /* socialApp-Pepul (iOS) */,
+				934179662876B2710013419B /* socialApp-Pepul (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9341795F2876B2710013419B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9341796E2876B2710013419B /* Assets.xcassets in Resources */,
+				934179872876B45F0013419B /* userdetails.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934179652876B2710013419B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9341796F2876B2710013419B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9341795D2876B2710013419B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9341798E2876B5D70013419B /* PostListView.swift in Sources */,
+				9341796C2876B2710013419B /* ContentView.swift in Sources */,
+				9341796A2876B2710013419B /* socialApp_PepulApp.swift in Sources */,
+				934179962876BC190013419B /* APIService.swift in Sources */,
+				934179832876B3A80013419B /* ModelData.swift in Sources */,
+				9341797F2876B3700013419B /* StringConstants.swift in Sources */,
+				9341799A2876CE170013419B /* DeletePost.swift in Sources */,
+				934179942876B64B0013419B /* UserDetailsViewModel.swift in Sources */,
+				934179812876B38C0013419B /* Extensions.swift in Sources */,
+				934179982876BF8E0013419B /* UserDetailsService.swift in Sources */,
+				934179922876B5F90013419B /* PostView.swift in Sources */,
+				934179852876B44A0013419B /* UserDetails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934179632876B2710013419B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9341796D2876B2710013419B /* ContentView.swift in Sources */,
+				9341796B2876B2710013419B /* socialApp_PepulApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		934179702876B2710013419B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		934179712876B2710013419B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		934179732876B2710013419B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XPMBPCWBZA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ram..socialApp-Pepul";
+				PRODUCT_NAME = "socialApp-Pepul";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		934179742876B2710013419B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XPMBPCWBZA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ram..socialApp-Pepul";
+				PRODUCT_NAME = "socialApp-Pepul";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		934179762876B2710013419B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XPMBPCWBZA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ram..socialApp-Pepul";
+				PRODUCT_NAME = "socialApp-Pepul";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		934179772876B2710013419B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XPMBPCWBZA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ram..socialApp-Pepul";
+				PRODUCT_NAME = "socialApp-Pepul";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		934179582876B26B0013419B /* Build configuration list for PBXProject "socialApp-Pepul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934179702876B2710013419B /* Debug */,
+				934179712876B2710013419B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934179722876B2710013419B /* Build configuration list for PBXNativeTarget "socialApp-Pepul (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934179732876B2710013419B /* Debug */,
+				934179742876B2710013419B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934179752876B2710013419B /* Build configuration list for PBXNativeTarget "socialApp-Pepul (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934179762876B2710013419B /* Debug */,
+				934179772876B2710013419B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 934179552876B26B0013419B /* Project object */;
+}
